@@ -1,0 +1,56 @@
+show databases;
+
+create database fingertips;
+
+use fingertips;
+
+create table Employee (
+Emp_ID int(10),
+First_Name varchar(10),
+Last_Name varchar(10),
+Dept_code int (3));
+
+select * from employee;
+
+insert into Employee (Emp_ID, First_Name, Last_Name, Dept_Code)
+values
+(248132604,"Shivam", "Deo",76),
+(815242165,"Parijat", "Shankar",43),
+(416122768,"rahul", "Srivastava", 66),
+(960828909,"Kumar","Swamy",47),
+(440361783,"Shankh","Khurana",23),
+(851591490,"Swapnil", "Mehta", 43),
+(668957687,"Arvind", "Chattejee",23),
+(585068105,"Jalpesh", "Modi",33),
+(379882096,"Kavita", "Yadav", 23),
+(718929853,"Syed", "Zaheer", 66),
+(873840890,"Sanjay", "Shukla",76),
+(941877566,"Ragini", "Malhotra",33),
+(998809976,"Javed","Khan", 23),
+(669391133, "Vikram","Singh",43),
+(861199021,"Ajay","Kumar",23),
+(980140890,"Pankaj","Verma",43),
+(750603819,"Roshan","Singh",47),
+(558885983,"Sunaina","Yadav",76),
+(392214056,"Bhavna","Sharma",66),
+(164880802,"Pooja","Kumari",47);
+
+select * from employee;
+
+
+create table Department(
+Dept_Code int (10),
+Dept_Name varchar(25),
+Dept_Budget int (12));
+
+insert into Department (Dept_Code,Dept_Name,Dept_Budget)
+values
+(23,"Sales and Marketing",50000000),
+(66,"Information Technology",100000000),
+(43,"Customer Service",30000000),
+(33, "Human Resources",20000000),
+(76, "Finance and Accounting",40000000),
+(47,"Operations",60000000);
+
+
+
